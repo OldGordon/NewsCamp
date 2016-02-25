@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 
-    var hot = "http://www.freecodecamp.com/news/hot";
+var hot = "http://www.freecodecamp.com/news/hot";
     $.get(hot, function(campnew){
 
     	campnew.forEach(function(campernews){
